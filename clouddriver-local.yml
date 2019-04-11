@@ -1,0 +1,18 @@
+cloudfoundry:
+  enabled: true
+  accounts:
+    - name: marysville
+      user: admin
+      password: '{cipher}38a4c3838ff62996d2260166d2eacff6ae2aa3b8caeffa26b50b167b0f38ab7a4e5084b66c3e5c8493465947ee28b2bc6b88120117e19799ebaf04d48643b8b0'
+      api: api.sys.marysville.cf-app.com
+      appsManagerURI: https://apps.sys.marysville.cf-app.com
+    - name: seoul
+      user: admin
+      password: '{cipher}af396582c0087d60f96aae39c3f8e9e388988f1a59e02e8ccedec02bec9f6ab15f516405b18b94973d76467156af7108ac62142dd25dba5a980fb88fff37d7e8'
+      api: api.sys.seoul.cf-app.com
+      appsManagerURI: https://apps.sys.seoul.cf-app.com
+    - name: montclair
+      user: admin
+      password: '{cipher}2a80298a0f9ecd91af0c45bedaf39863b47b0774da44ed70656af44c2a7303bb93c4a0f1ecfb92ead8d377a68c8e7e6a1cc5e5338454a3a919e698465c93ac4f'
+      api: api.sys.montclair.cf-app.com
+      appsManagerURI: https://apps.sys.montclair.cf-app.com
