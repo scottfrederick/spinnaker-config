@@ -21,3 +21,8 @@ cloudfoundry:
       password: '{cipher}2a80298a0f9ecd91af0c45bedaf39863b47b0774da44ed70656af44c2a7303bb93c4a0f1ecfb92ead8d377a68c8e7e6a1cc5e5338454a3a919e698465c93ac4f'
       api: api.sys.test2.cf-app.com
       appsManagerURI: https://apps.sys.test2.cf-app.com
+    - name: test3
+      user: admin
+      password: '{cipher}2a80298a0f9ecd91af0c45bedaf39863b47b0774da44ed70656af44c2a7303bb93c4a0f1ecfb92ead8d377a68c8e7e6a1cc5e5338454a3a919e698465c93ac4f'
+      api: api.sys.test3.cf-app.com
+      appsManagerURI: https://apps.sys.test3.cf-app.com
