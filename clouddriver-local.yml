@@ -16,3 +16,8 @@ cloudfoundry:
       password: '{cipher}2a80298a0f9ecd91af0c45bedaf39863b47b0774da44ed70656af44c2a7303bb93c4a0f1ecfb92ead8d377a68c8e7e6a1cc5e5338454a3a919e698465c93ac4f'
       api: api.sys.montclair.cf-app.com
       appsManagerURI: https://apps.sys.montclair.cf-app.com
+    - name: test1
+      user: admin
+      password: '{cipher}2a80298a0f9ecd91af0c45bedaf39863b47b0774da44ed70656af44c2a7303bb93c4a0f1ecfb92ead8d377a68c8e7e6a1cc5e5338454a3a919e698465c93ac4f'
+      api: api.sys.test1.cf-app.com
+      appsManagerURI: https://apps.sys.montclair.cf-app.com
